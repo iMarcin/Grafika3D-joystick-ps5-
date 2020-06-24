@@ -1,0 +1,1 @@
+ruch WASD, obrot myszka, wejdz do okna LPM, wyjdz z okna PPM, do gory spacja, do dolu LShift

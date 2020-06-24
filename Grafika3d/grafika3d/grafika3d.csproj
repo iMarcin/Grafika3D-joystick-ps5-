@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SFML.Net" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SFML.Audio">
+      <HintPath>bin\Debug\SFML.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="SFML.Graphics">
+      <HintPath>bin\Debug\SFML.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="SFML.System">
+      <HintPath>bin\Debug\SFML.System.dll</HintPath>
+    </Reference>
+    <Reference Include="SFML.Window">
+      <HintPath>bin\Debug\SFML.Window.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
